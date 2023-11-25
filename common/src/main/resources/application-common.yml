@@ -3,20 +3,23 @@ spring:
 
 tencent:
   cloud:
-    appId: 腾讯云APPID
-    secretId: 腾讯云SecretId
-    secretKey: 腾讯云SecretKey
-    region-public: 公有存储桶所在地域
-    bucket-public: 公有存储桶名称
-    region-private: 私有存储桶所在地域
-    bucket-private: 私有存储桶名称
+    #腾讯云APPID
+    appId: 1322602036
+    #腾讯云SecretId
+    secretId: AKIDeAjCZsVCcxKj4Ocow3HOSUYchlmkkswo
+    #腾讯云SecretKey
+    secretKey: ocM2d1GSUIwTvNo9MG7viQ1bHsS3hGwf
+    region-public: ap-chengdu
+    bucket-public: hxds-public-1322602036
+    region-private: ap-chengdu
+    bucket-private: hxds-private-1322602036
 
 wx:
   app-id: wxc10cc5e635bc6da3
   app-secret: b93117013393b9416805da370ee7de0b
   mch-id: 123456
   key: 123456
-  cert-path: D:/apiclient_cert.p12
+  cert-path: E:/apiclient_cert.p12
 
 minio:
   endpoint: http://localhost:9000

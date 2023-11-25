@@ -18,9 +18,9 @@ public class RegisterNewDriverForm {
   @Schema(description = "微信小程序临时授权")
   private String code;
 
-  @NotBlank(message = "nickName不能为空")
+  @NotBlank(message = "nickname不能为空")
   @Schema(description = "用户昵称")
-  private String nickName;
+  private String nickname;
 
   @NotBlank(message = "photo不能为空")
   @Schema(description = "用户头像")
